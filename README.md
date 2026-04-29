@@ -16,3 +16,9 @@
 ---
 
 **Estructura**
+
+**Ramas: **
+Para clonar este proyecto directamente en la rama de desarrollo, ejecuta:
+
+```bash
+git clone -b login [https://github.com/Jesus1827/la_paja_del_cochalo.git](https://github.com/Jesus1827/la_paja_del_cochalo.git)
