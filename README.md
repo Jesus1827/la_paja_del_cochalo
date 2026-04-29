@@ -21,4 +21,4 @@
 
 Rama login: 
 ```bash
-git clone -b nombre-de-la-rama https://github.com/usuario/repositorio.git
+git clone -b login https://github.com/usuario/repositorio.git
