@@ -17,6 +17,27 @@
 
 **Estructura**
 
+Estructura del Proyecto.
+
+```text
+la_paja_del_cochalo/
+├── assets/              # Archivos estáticos
+│   ├── img/             # Imágenes y SVGs
+│   ├── fonts/           # Tipografías locales
+│   └── docs/            # PDF u otros documentos
+├── css/                 # Estilos
+│   ├── modules/         # Estilos específicos de componentes
+│   ├── main.css         # Archivo central que importa el resto
+│   └── variables.css    # Colores, fuentes y espaciado
+├── js/                  # Lógica de programación
+│   ├── modules/         # Funciones reutilizables
+│   ├── utils/           # Helpers o herramientas pequeñas
+│   └── main.js          # Punto de entrada principal
+├── index.html           # Página principal
+├── .gitignore           # Archivos que Git debe ignorar
+└── README.md            # Documentación del proyecto
+```
+
 ---
 
 **Ramas:**
