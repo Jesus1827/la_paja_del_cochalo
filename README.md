@@ -1,4 +1,4 @@
-# la_paja_del_cochalo
+# La Paja Del Cochalo
 ---
 
 | **Colaboradores** | **Misión** |
