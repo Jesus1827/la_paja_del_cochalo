@@ -15,7 +15,7 @@
 
 ---
 
-**Estructura**
+**Estructura:**
 
 Estructura del Proyecto.
 
