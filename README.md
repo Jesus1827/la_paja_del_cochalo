@@ -1,3 +1,3 @@
 # la_paja_del_cochalo
 
-[@pinto](https://github.com/KevinPintoRamos)
+[@Kevin Pinto Ramos](https://github.com/KevinPintoRamos)
