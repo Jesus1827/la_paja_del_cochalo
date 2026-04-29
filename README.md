@@ -17,7 +17,9 @@
 
 **Estructura**
 
-**Ramas: **
+---
+
+**Ramas:**
 
 Rama login: 
 ```bash
