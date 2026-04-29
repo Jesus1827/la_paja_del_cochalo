@@ -12,3 +12,7 @@
 | [Alejandro Carbajala Avendaño](https://github.com/alecarbajal54321-dot) | null |
 | [Kilian Claudio Mamani Cala](https://github.com/kilian1110) | null |
 | [Natalie Aguilar Ruiz](https://github.com/natalieaguilarruiz-boop) | null |
+
+---
+
+**Estructura**
