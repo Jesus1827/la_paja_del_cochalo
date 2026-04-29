@@ -41,12 +41,15 @@ la_paja_del_cochalo/
 ---
 
 **Ramas:**
+
 Rama dev: Rama principal del proyecto.
+
 ```bash
 git clone -b dev https://github.com/Jesus1827/la_paja_del_cochalo
 ```
 
 Rama login: 
+
 ```bash
 git clone -b login https://github.com/Jesus1827/la_paja_del_cochalo
 ```
