@@ -1,7 +1,7 @@
 # la_paja_del_cochalo
 ---
 
-| **Colaboradores:** | **Misión** |
+| **Colaboradores** | **Misión** |
 | :--- | :--- |
 | [Jesús Antonio Vilamani Carlos](https://github.com/Jesus1827) | null |
 | [Luis Fernando Garcia Flores](https://github.com/TK-FUISTELS154) | null |
