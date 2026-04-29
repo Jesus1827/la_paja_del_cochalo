@@ -1,16 +1,20 @@
 # la_paja_del_cochalo
 ---
 
-| **Colaboradores:** |
+| **Colaboradores:** | **Misión** |
 
-| * [Jesús Antonio Vilamani Carlos](https://github.com/Jesus1827) |
+| :--- | :--- |
 
-* [Luis Fernando Garcia Flores](https://github.com/TK-FUISTELS154)
+| * [Jesús Antonio Vilamani Carlos](https://github.com/Jesus1827) | null |
 
-* [Kevin Pinto Ramos](https://github.com/KevinPintoRamos)
+| * [Luis Fernando Garcia Flores](https://github.com/TK-FUISTELS154) | null |
 
-* [Alejandro Carbajala Avendaño](https://github.com/alecarbajal54321-dot)
+| * [Kevin Pinto Ramos](https://github.com/KevinPintoRamos) | null |
 
-* [Kilian Claudio Mamani Cala](https://github.com/kilian1110)
+| * [Alejandro Carbajala Avendaño](https://github.com/alecarbajal54321-dot) | null |
 
-* [Natalie Aguilar Ruiz](https://github.com/natalieaguilarruiz-boop)
+| * [Kilian Claudio Mamani Cala](https://github.com/kilian1110) | null |
+
+| * [Natalie Aguilar Ruiz](https://github.com/natalieaguilarruiz-boop) | null |
+
+| :--- | :--- |
