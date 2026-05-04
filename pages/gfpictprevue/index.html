@@ -172,7 +172,32 @@
     </header>
     <hr style="border: none; height: 2px; background-color: #f2f3f9;">
     <main>
-
+         <div class="container">
+            <div class="min-economia">
+                <img src="../../assets/img/gfpictprevue.png" alt="Ministerio de Economía">
+                <h3>SISTEMA DE INFORMACIÓN DE ACTIVOS FIJOS</h3>
+                <div class="subtitle">
+                    <p><strong>Desarrollado </strong></p>
+                    <div class="info">
+                        <p>Direccion General de Sistemas (DGSGIF)</p>
+                        <p>Unidad de Administracion y Seguridad de Sistemas</p>
+                    </div>
+                </div>
+                <div class="subtitle">
+                    <p><strong>Revisado </strong></p>
+                    <p style="color: #ffffff;">pii</p>
+                    <div class="info">
+                        <p>Direccion General de Contabilidad Fiscal</p>
+                        <p>Unidad de Contabilidad y Cuentas Fiscales</p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p><strong>vSIAF vercion 3.2</strong></p>
+                    <p><strong>Copyright © 1999-2012 DG SGIF</strong></p>
+                    <p><strong>Todo derecho Reservado</strong></p>
+                </div>
+            </div>
+         </div>
     </main>
     <footer>
         <div class="footer-content">
@@ -196,6 +221,17 @@
         const user = getDataUser();
         document.getElementById('role').textContent = user.rol;
         document.getElementById('road').textContent = getRoad();
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // 5000 milisegundos = 5 segundos
+            const tiempoEspera = 5000; 
+
+            console.log("Iniciando carga del sistema... Espere 5 segundos.");
+
+            setTimeout(() => {
+                navegarA("../../" + road.GFPICTPREVUEtoLeading);
+            }, tiempoEspera);
+        });
     </script>
 </body>
 </html>

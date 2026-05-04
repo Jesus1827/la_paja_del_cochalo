@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS.I.A.F-Login</title>
     <link rel="stylesheet" href="css/styles_main/header.css">
-    <link rel="stylesheet" href="css/styles_main/main.css">
+    <link rel="stylesheet" href="css/styles_main/login.css">
 </head>
 <body>
     <header>
@@ -63,17 +63,55 @@
             <details class="menu-item">
                 <summary>Edición</summary>
                 <div class="dropdown-fox">
-                    <div class="opcion">
+                    <div class="opcion deshabilitada">
                         <span>Deshacer</span>
                         <span class="atajo">Ctrl+Z</span>
                     </div>
-                    <div class="opcion">
+                    <div class="opcion deshabilitada">
+                        <span>Rehacer</span>
+                        <span class="atajo">Ctrl+R</span>
+                    </div>
+                    <div class="opcion deshabilitada">
                         <span>Cortar</span>
                         <span class="atajo">Ctrl+X</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Copiar</span>
+                        <span class="atajo">Ctrl+C</span>
                     </div>
                     <div class="opcion">
                         <span>Pegar</span>
                         <span class="atajo">Ctrl+V</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Pegar especial...</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Borrar</span>
+                    </div>
+                    <div class="opcion">
+                        <span>Seleccionar todo</span>
+                        <span class="atajo">Ctrl+A</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Buscar</span>
+                        <span class="atajo">Ctrl+F</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Reemplazar</span>
+                        <span class="atajo">Ctrl+L</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Insertar objeto...</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Objeto...</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Vínculos...</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Propiedades...</span>
                     </div>
                 </div>
             </details>
@@ -87,28 +125,55 @@
                     <div class="opcion">
                         <span>Organizar todo</span>
                     </div>
+                    <div class="opcion">
+                        <span>Ocultar</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Borrar</span>
+                    </div>
+                    <div class="opcion">
+                        <span>Recorrer</span>
+                        <span class="atajo">Ctrl+F1</span>
+                    </div>
+                    <hr>
+                    <div class="opcion">
+                        <span>1 SISTEMA DE ACTIVOS FIJOS</span>
+                    </div>
+                    <div class="opcion">
+                        <span>2 NGRESE SU IDENTIFICACION</span>
+                    </div>
                 </div>
             </details>
 
             <details class="menu-item">
                 <summary>Ayuda</summary>
                 <div class="dropdown-fox">
-                    <div class="opcion">
-                        <span>Ayuda de VSIAF</span>
+                    <div class="opcion deshabilitada">
+                        <span>Ayuda de Microsoft Visual FoxPro</span>
                         <span class="atajo">F1</span>
                     </div>
-                    <div class="opcion">
-                        <span>Acerca de...</span>
+                    <div class="opcion deshabilitada">
+                        <span>Busqueda en MSDN</span>
+                    </div>
+                    <hr>
+                    <div class="opcion deshabilitada">
+                        <span>Soporte técnico</span>
+                    </div>
+                    <div class="opcion deshabilitada">
+                        <span>Visual FoxPro en el Web</span>
+                    </div>
+                    <hr>
+                    <div class="opcion deshabilitada">
+                        <span>Acerca de Microsoft Visual FoxPro</span>
                     </div>
                 </div>
-            </details>
+            </details>   
         </nav>
     </header>
     <hr style="border: none; height: 2px; background-color: #f2f3f9;">
     <main>
         <div class="login-container">
             <h2>INGRESE SU IDENTIFICACION</h2>
-
             <div class="login-header">
                 <img src="assets/img/login.png" alt="login">
             </div>
@@ -120,11 +185,11 @@
                     </div>
                     <div class="login-user">
                         <p>Nombre del Usuario</p>
-                        <input type="text" placeholder="Usuario">
+                        <input id="login-username" type="text" placeholder="Usuario">
                     </div>
                     <div class="login-password">
                         <p>Contraseña</p>
-                        <input type="password" placeholder="Contraseña">
+                        <input id="login-password" type="password" placeholder="Contraseña">
                     </div>
                     <div class="login-confirm">
                         <p><strong>Nota: Es sensible al contexto</strong></p>
@@ -137,15 +202,9 @@
                 <p>Copyright &copy; 1999-2013 DGSGIF</p>
                 <p>Todos los derechos reservados</p>
             </div>
-            
-        </div>
-            
+        </div>  
     </main>
-    <hr>
-    <footer>
-        
-    </footer>
-
+    <script src="js/login.js"></script>
     <script src="js/config.js"></script>
 </body>
 </html>
