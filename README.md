@@ -58,3 +58,9 @@ Rama login:
 ```bash
 git clone -b login https://github.com/Jesus1827/la_paja_del_cochalo
 ```
+
+Rama inicio: Estructura basica para el proyecto
+
+```bash
+git clone -b inicio https://github.com/Jesus1827/la_paja_del_cochalo
+```
