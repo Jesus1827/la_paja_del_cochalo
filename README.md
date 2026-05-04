@@ -33,6 +33,11 @@ la_paja_del_cochalo/
 │   ├── modules/         # Funciones reutilizables
 │   ├── utils/           # Helpers o herramientas pequeñas
 │   └── main.js          # Punto de entrada principal
+├── pages/ 
+│   ├── leading/
+│   ├── loading/
+│   ├── manager_resources/
+│   └── security/
 ├── index.html           # Página principal
 ├── .gitignore           # Archivos que Git debe ignorar
 └── README.md            # Documentación del proyecto
