@@ -31,3 +31,13 @@ function getRoad() {
     const getRoad = window.location.pathname;
     return getRoad;
 }
+
+function getUserName() {
+    const name = localStorage.getItem('usuarioNombre');
+    return name;
+}
+
+function getBackupsCount() {
+    const backupsCount = localStorage.getItem('backups_count');
+    return backupsCount;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5px;
+    background-color: #b2cbe5;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.menu-header {
+    background: linear-gradient(to right bottom, #5d9acc, #1e4564);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-img-bandera img {
+    width: 100px;
+    height: auto;
+}
+
+.menu-img-vsiaf img {
+    width: 250px;
+    height: auto;
+}
+
+.menu-user {
+    margin: 0 120px 30px 0px;
+}
+
+.menu-user span {
+    color: #f8fafa;
+    font-size: 14px;
+}
+
+main {
+    background-color: #ffffff;
+    height: calc(100vh - 120px); 
+    width: 100%;
+}
