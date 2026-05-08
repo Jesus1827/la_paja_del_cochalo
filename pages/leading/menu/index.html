@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/styles_main/leading_menu.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-title">
+            <h1>SISTEMA DE ACTIVOS FIJOS</h1>
+        </div>
+        <div class="menu-header">
+            <div class="menu-img">
+                <div class="menu-img-bandera">
+                    <img src="../../../assets/img/bandera.png" alt="bandera">
+                </div>
+                <div class="menu-img-vsiaf">
+                    <img src="../../../assets/img/vsiaf.png" alt="vsiaf">
+                </div>
+            </div>
+            <div class="menu-user">
+                <div class="menu-user-item">
+                    <span><strong>USUARIO: </strong></span>
+                    <span id="user-name"></span>
+                </div>
+                <div class="menu-user-item">
+                    <span><strong>BACKUPS: </strong></span>
+                    <span id="backups-count"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu-contenedor">
+            <h2>MENU PRINCIPAL</h2>
+            <div class="menu-buttons">
+                <div class="menu-button">
+                    <button id="activos-fijos">ACTIVOS FIJOS</button>
+                </div>
+                <div class="menu-button">
+                    <button id="grupos-y-auxiliares">GRUPOS Y AUXILIARES</button>
+                </div>
+                <div class="menu-button">
+                    <button id="oficinas-y-responsables">OFICINAS Y RESPONSABLES</button>
+                </div>
+                <div class="menu-button">
+                    <button id="generar-reportes">GENERAR REPORTES</button>
+                </div>
+                <div class="menu-button">
+                    <button id="administradores">ADMINISTRADORES</button>
+                </div>
+                <div class="menu-button">
+                    <button id="iniciar-sesion">INICIAR SESIÓN</button>
+                </div>
+                <div class="menu-button">
+                    <button id="respaldos-db">RESPALDOS DB</button>
+                </div>
+                <div class="menu-button">
+                    <button id="administrar-unidad">ADMINISTRAR UNIDAD</button>
+                </div>
+                <div class="menu-button">
+                    <button id="localizacion-db">LOCALIZACIÓN DB</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteiner-iframe">
+            <div class="header-contenido">
+                <div class="datos-contenedor">
+                    <p><strong>ENTIDAD:</strong> PREFW &nbsp;&nbsp; GFPICTPREVUE</p>
+                    <p><strong>UNIDAD:</strong> F</p>
+                </div>
+            </div>
+            <iframe id="content-frame" src="" frameborder="0"></iframe>
+        </div>
+
+    </main>
+    <script src="../../../js/leading_menu.js"></script>
+    <script src="../../../js/config.js"></script>
+
+    <script>
+        document.getElementById('user-name').textContent = getUserName();
+        document.getElementById('backups-count').textContent = getBackupsCount() || 'None';
+    </script>
+</body>
+
+</html>
