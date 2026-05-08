@@ -13,7 +13,6 @@ function ejecutarLogin() {
             return response.json();
         })
         .then(data => {
-            // Buscamos coincidencia en el arreglo de usuarios
             const usuarioEncontrado = data.users.find(user => 
                 user.username === usernameInput && user.password === passwordInput
             );
