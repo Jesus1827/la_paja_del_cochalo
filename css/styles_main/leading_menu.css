@@ -52,4 +52,74 @@ main {
     background-color: #ffffff;
     height: calc(100vh - 120px); 
     width: 100%;
+    display: flex;
+}
+
+.menu-contenedor {
+    width: 220px;
+    background-color: #ffffff;
+    border-right: 2px solid #b3c7d9;
+    padding: 10px;
+}
+
+.menu-contenedor h2 {
+    color: #285f96;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin-bottom: 10px;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button {
+    padding: 10px 5px;
+    border: 2px solid #adbfd2;
+    border-radius: 3px;
+    background-color: #ececec;
+}
+
+.menu-button button {
+    width: 100%;
+    background: linear-gradient(to bottom, #7fa8d2, #ccf0fa);
+    border: 2px solid #7fa8d2;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu-button button:active {
+    border-color: #404044;
+}
+
+.menu-button button:hover {
+    background: #7fa8d2;
+}
+
+.conteiner-iframe {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color:#ffffff;
+    height: 80vh;
+}
+
+.header-contenido {
+    padding: 10px;
+    border-bottom: 2px solid #e5e5e5;
+    background-color:#ffffff;
+}
+
+.datos-contenedor p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #285f96;
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
