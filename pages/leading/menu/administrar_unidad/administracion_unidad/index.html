@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Unidad Administrativa</title>
+
+<style>
+body { font-family: Arial; background:#cfd8e3; }
+
+.container {
+    width: 950px;
+    margin:auto;
+    background:white;
+    border:1px solid #888;
+}
+
+.header {
+    background: linear-gradient(#5b86b3,#2f5f8f);
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.content { display:flex; }
+
+.menu {
+    width:260px;
+    border-right:1px solid #ccc;
+    padding:10px;
+}
+
+.group {
+    border:1px solid #aaa;
+    margin-bottom:15px;
+    padding:10px;
+    background:#f5f7fa;
+}
+
+.group-title {
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.menu button {
+    width:100%;
+    margin:4px 0;
+    padding:8px;
+    background:linear-gradient(#4f81bd,#2f5f8f);
+    color:white;
+    border:none;
+    text-align:left;
+}
+
+.main { flex:1; padding:20px; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td {
+    border:1px solid #999;
+    padding:5px;
+}
+
+th {
+    background:#2f5f8f;
+    color:white;
+}
+
+.buttons {
+    text-align:center;
+    margin-top:10px;
+}
+
+.buttons button {
+    margin:5px;
+    padding:8px 15px;
+    background:#3c6ea5;
+    color:white;
+    border:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">ADMINISTRACIÓN UNIDAD ADMINISTRATIVA</div>
+
+    <div class="content">
+
+        <!-- MENÚ -->
+        <div class="menu">
+
+            <div class="group">
+                <div class="group-title">MENÚ</div>
+                <button onclick="volver()">Inicio</button>
+                <button>Unidades</button>
+                <button>Reportes</button>
+            </div>
+
+            <div class="group">
+                <div class="group-title">SISTEMA</div>
+                <button>Configuración</button>
+                <button>Usuarios</button>
+                <button>Salir</button>
+            </div>
+
+        </div>
+
+        <!-- CONTENIDO -->
+        <div class="main">
+
+            <p><b>Entidad:</b> 0025 Ministerio de la Presidencia</p>
+
+            <table>
+                <tr>
+                    <th>UNIDAD</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>CIUDAD</th>
+                </tr>
+                <tr>
+                    <td colspan="3">Sin registros</td>
+                </tr>
+            </table>
+
+            <div class="buttons">
+                <button onclick="nuevo()">Nuevo</button>
+                <button>Editar</button>
+                <button>Eliminar</button>
+                <button>Seleccionar</button>
+                <button onclick="volver()">Salir</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+function nuevo(){
+    alert("Crear nueva unidad");
+}
+function volver(){
+    window.location.href="imagen3.html"; // vuelve a la primera pantalla
+}
+</script>
+
+</body>
+</html>
