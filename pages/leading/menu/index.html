@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../css/styles_main/leading_menu.css">
     <title>Menu</title>
 </head>
+
 <body>
     <header>
         <div class="menu-title">
@@ -35,7 +37,7 @@
 
     <main>
         <div class="menu-principal">
-            
+
         </div>
         <div class="menu-contenedor">
             <h2>MENU PRINCIPAL</h2>
@@ -70,12 +72,18 @@
             </div>
         </div>
 
+        <div class="conteiner-iframe">
+            <iframe id="content-frame" src="" frameborder="0"></iframe>
+        </div>
+
     </main>
     <script src="../../../js/leading_menu.js"></script>
     <script src="../../../js/config.js"></script>
+
     <script>
         document.getElementById('user-name').textContent = getUserName();
         document.getElementById('backups-count').textContent = getBackupsCount() || 'None';
     </script>
 </body>
+
 </html>
